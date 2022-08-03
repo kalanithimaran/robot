@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+#navbar{
+    background-color: rgb(12, 10, 10);
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 1rem 1rem;
+    box-shadow: 10px 10px 20px rgba(7, 6, 5,0.);
+    height: 60px;
+}
+#navbar .navbar-brand{
+    color:green;
+    font-size: 25px;
+    font-weight: 900;
+}
+#navbarSupportedContent a{
+    color: rgb(238, 228, 228);
+    font-size: 15px;
+        font-weight: 500;
+        border-bottom: 2px transparent;
+}
+#navbarSupportedContent a:hover{ border-bottom:2px solid green ;}
+.dropdown .dropdown-menu .dropdown-item {
+    color: black !important;
+    border-bottom:0 !important ;
+}
+#navbarSupportedContent button{
+    background-color:green ;
+    color: rgb(202, 197, 192);
+    border-radius: 15px;
+    font-size: 15px;
+     font-weight: 700; 
+}       
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/img8.jpeg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 100px;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #aaa,
+    0px 2px 0px #aaa,
+    0px 3px 0px #aaa,
+    0px 4px 0px #aaa,
+    0px 5px 0px #aaa,
+    0px 6px 0px #aaa;
+}
+#home p{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    
+    word-spacing: 10px;
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.singin {
+    background-color: green !important ;
+    color: whitesmoke;
+}
+#about h1{
+    font-size: 50px;
+    color: rgb(25, 139, 139);
+}
+#about h5{
+    font-size: 25px;
+}
+#about p{
+    font-size: 15px;
+}
+#products{
+    background-color: #e5e5e5;
+}
+
+#products h1{
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+#products .card{
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgb(8, 8, 8),
+    inset 6px 5px 1px  rgba(247, 247, 242, 0.4);
+    justify-content: center;
+    align-items: center;
+   margin: 30px auto;
+   overflow: hidden;
+   transition: .2s;
+}
+#products .card:hover{
+    box-shadow: inset  6px 5px 10px rgb(8, 8, 8),
+   10px 10px 20px   rgba(247, 247, 242, 0.4);
+   transition: .2s;
+}
+
+#products img{
+    width: 250px;
+    height: 250px;}
+#contact img{
+    width: 100%;
+    height: 400px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact{
+    background: linear-gradient( to right, rgba(255, 255, 255, 1), rgba(8, 95, 39, 0.7)) ;
+}
+#contact h1{
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+footer{
+    width: 100%;
+  min-height: 50px;
+}
+
+footer a{
+   position: relative;
+   top: 10px;
+   left: 50px;   
+    text-decoration: none;
+    color: #fff;
+   
+}
