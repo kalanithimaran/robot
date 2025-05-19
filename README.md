@@ -1,7 +1,5 @@
 # 🤖 Robot4u - Robotic Solutions E-Commerce Platform
 
-![Project Banner](images/logo3.jpg)
-
 ## 📝 Table of Contents
 - [Project Overview](#-project-overview)
 - [Key Features](#-key-features)
@@ -59,15 +57,8 @@ Robot4u is a responsive e-commerce website designed to showcase various robotic 
 | ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white) | Responsive framework |
 | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black) | Basic interactivity |
 
-## 📸 Screenshots
-
-| Section | Preview |
-|---------|---------|
-| **Home** | ![Home Section](images/img9.jpg) |
-| **Products** | ![Products Section](images/img11.jpg) |
-| **Contact** | ![Contact Section](images/ing5.jpg) |
 
 ## ⚙️ Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/robot4u.git
+   git clone https://github.com/kalanithimaran/robot4u.git
