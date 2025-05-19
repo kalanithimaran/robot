@@ -4,12 +4,7 @@
 - [Project Overview](#-project-overview)
 - [Key Features](#-key-features)
 - [Technology Stack](#-technology-stack)
-- [Screenshots](#-screenshots)
 - [Installation](#-installation)
-- [Usage](#-usage)
-- [Future Enhancements](#-future-enhancements)
-- [Contributing](#-contributing)
-- [License](#-license)
 
 ## 🌟 Project Overview
 Robot4u is a responsive e-commerce website designed to showcase various robotic solutions for industrial and personal use. Built as a learning project while exploring React fundamentals, it demonstrates core web development skills with clean, semantic HTML and modern CSS techniques.
